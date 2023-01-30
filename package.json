@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "test:1": "node --no-warnings test/wait.test.js",
+    "test:2": "node --no-warnings test/read-file.test.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  },
+  "volta": {
+    "node": "18.10.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "commonjs": true,
+      "es2021": true,
+      "node": true
+    }
+  }
+}
